@@ -1,0 +1,1 @@
+// # create the credential object that is sent to the attester for attestation

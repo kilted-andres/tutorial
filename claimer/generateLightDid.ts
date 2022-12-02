@@ -1,0 +1,1 @@
+// # create the light DID for the claimer
