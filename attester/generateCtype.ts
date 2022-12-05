@@ -17,6 +17,7 @@ export async function ensureStoredCtype(
 
   // Get the CTYPE and see if it's stored, if yes return it.
   const ctype = getCtypeSchema()
+  console.log(JSON.stringify(ctype, null, 2))
   try {
     await Kilt.CType.verifyStored(ctype)
     console.log('Ctype already stored. Skipping creation')

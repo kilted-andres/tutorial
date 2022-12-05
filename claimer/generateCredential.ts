@@ -18,6 +18,9 @@ export function generateCredential(
 
   // Create credential and request attestation.
   console.log('Claimer -> create request')
+  console.log( "\u001b[1;33m"); //turn message output to yellow
+  console.log('the title of the Credential Type is:      ', ctype.title);
+  console.log( "\u001b[0m "); // return message output to default
   return Kilt.Credential.fromClaim(claim)
 }
 
